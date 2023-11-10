@@ -22,16 +22,15 @@ public class Piramide extends FiguraGeometrica{
      * @return El volumen de una pirámide
      */
     public double calcularVolumen() {
-        double volumen = (Math.pow(base, 2.0) * altura) / 3.0;
-        return volumen;
+        return (Math.pow(base, 2.0) * altura) / 3.0;
     }
     /**
      * Método para calcular la superficie de una pirámide
      * @return La superficie de una pirámide
      */
     public double calcularSuperficie() {
-        double áreaBase = Math.pow(base, 2.0);
-        double áreaLado = 2.0 * base * apotema;
-        return áreaBase + áreaLado;
+        double areaBase = Math.pow(base, 2.0);
+        double areaLado = 2.0 * base * apotema;
+        return areaBase + areaLado;
     }
 }

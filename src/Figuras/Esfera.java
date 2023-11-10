@@ -15,16 +15,14 @@ public class Esfera extends FiguraGeometrica {
      * @return El volumen de una esfera
      */
     public double calcularVolumen() {
-        double volumen = 1.333 * Math.PI * Math.pow(this.radio, 3.0);
-        return volumen;
+        return 1.333 * Math.PI * Math.pow(this.radio, 3.0);
     }
     /**
      * Método para calcular la superficie de una esfera
      * @return La superficie de una esfera
      */
     public double calcularSuperficie() {
-        double superficie = 4.0 * Math.PI * Math.pow(this.radio, 2.0);
-        return superficie;
+        return 4.0 * Math.PI * Math.pow(this.radio, 2.0);
     }
 }
 

@@ -19,16 +19,15 @@ public class Cilindro extends FiguraGeometrica{
      * @return El volumen de un cilindro
      */
     public double calcularVolumen() {
-        double volumen = Math.PI * altura * Math.pow(radio, 2.0);
-        return volumen;
+        return Math.PI * altura * Math.pow(radio, 2.0);
     }
     /**
      * Método para calcular la superficie de un cilindro
      * @return La superficie de un cilindro
      */
     public double calcularSuperficie() {
-        double áreaLadoA = 2.0 * Math.PI * radio * altura;
-        double áreaLadoB = 2.0 * Math.PI * Math.pow(radio, 2.0);
-        return áreaLadoA + áreaLadoB;
+        double areaLadoA = 2.0 * Math.PI * radio * altura;
+        double areaLadoB = 2.0 * Math.PI * Math.pow(radio, 2.0);
+        return areaLadoA + areaLadoB;
     }
 }
