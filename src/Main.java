@@ -8,7 +8,7 @@ principal */
 principal */
         miVentanaPrincipal.setVisible(true); /* Establece la ventana
 como visible */
-// Establece que la ventana no puede cambiar su tamaño
-        miVentanaPrincipal.setResizable(false);
+// Establece que la ventana puede cambiar su tamaño
+        miVentanaPrincipal.setResizable(true);
         }
 }

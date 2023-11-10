@@ -23,7 +23,7 @@ public class VentanaCilindro extends JFrame implements ActionListener {
         setTitle("Cilindro"); // Establece el título de la ventana
         setSize(280,210); // Establece el tamaño de la ventana
         setLocationRelativeTo(null); /* La ventana se posiciona en el centro de la pantalla */
-        setResizable(false); /* Establece que el botón de cerrar permitirá salir de la aplicación */
+        setResizable(true); /* Establece que el botón de cerrar permitirá salir de la aplicación */
     }
     /**
      * Método que crea la ventana con sus diferentes componentes

@@ -24,7 +24,7 @@ numéricos */
         setSize(280,200); // Establece el tamaño de la ventana
         setLocationRelativeTo(null); /* La ventana se posiciona en el
 centro de la pantalla */
-        setResizable(false); /* Establece que el botón de cerrar permitirá
+        setResizable(true); /* Establece que el botón de cerrar permitirá
 salir de la aplicación */
     }
     /**

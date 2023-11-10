@@ -27,7 +27,7 @@ public class VentanaPiramide extends JFrame implements ActionListener {
             setSize(280, 240); // Establece el tamaño de la ventana
             setLocationRelativeTo(null); /* La ventana se posiciona en el
 centro de la pantalla */
-            setResizable(false); /* Establece que el botón de cerrar permitira
+            setResizable(true); /* Establece que el botón de cerrar permitira
 salir de la aplicación */
         }
 
